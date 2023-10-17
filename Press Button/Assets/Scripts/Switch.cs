@@ -8,6 +8,16 @@ public class Switch : MonoBehaviour
    public Image [] sprites;
     public bool IsOn = false;
 
+void Start(){
+    for (int i = 0; i < sprites.Length; i++)
+    {
+        // Get the current color of the image
+        Color thisColor = sprites[i].color;
+        thisColor.a = 0.05f;  
+         sprites[i].color = thisColor;
+    }
+
+}
 public void ColorSwitch()
 {
     Debug.Log("Clicked");
@@ -27,7 +37,7 @@ public void ColorSwitch()
         }
         else
         {
-            thisColor.a = 0.1f;  // Partially transparent
+            thisColor.a = 0.05f;  // Partially transparent
         }
 
         // Apply the modified color back to the image

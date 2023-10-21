@@ -22,7 +22,7 @@ public class PanelSlider : MonoBehaviour
         float sliderValue = slider.value;
 
         // Adjust the movement direction and distance as needed
-        Vector3 moveDirection = Vector3.right;
+        Vector3 moveDirection = Vector3.left;
         Vector3 targetPosition = initialPosition + moveDirection * sliderValue * moveSpeed * Time.deltaTime;
 
         // Move the panel

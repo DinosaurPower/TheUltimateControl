@@ -6,12 +6,14 @@ public class Toggles : MonoBehaviour
 {
     public bool[] ActualToggles;
     public GameObject Slider;
+    private Tracker tracker;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start(){
+
+        tracker= GetComponent <Tracker>();
     }
+
+    
 
     public void ToggleDone(int i){
         if (ActualToggles[i] == true){
@@ -25,6 +27,7 @@ public class Toggles : MonoBehaviour
             
             
             Debug.Log("Toggled");
+            tracker.SliderRevealed = true;
             Slider.SetActive(true);
             
             }

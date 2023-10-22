@@ -4495,6 +4495,7 @@ GameObject:
   - component: {fileID: 949240344}
   - component: {fileID: 949240345}
   - component: {fileID: 949240346}
+  - component: {fileID: 949240347}
   m_Layer: 0
   m_Name: GAME_MANAGER
   m_TagString: Untagged
@@ -4656,6 +4657,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Dropdown: {fileID: 1604478752}
+--- !u!114 &949240347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949240339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd81c5512ce88432ab8ff7d5b4c5ad12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SliderRevealed: 0
+  CodeInserted: 0
 --- !u!1 &992707515
 GameObject:
   m_ObjectHideFlags: 0

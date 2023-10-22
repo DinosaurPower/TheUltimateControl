@@ -6,5 +6,5 @@ public class Tracker : MonoBehaviour
 {
     
     public bool SliderRevealed;
-    public bool CodeInserted;
+    public bool ButtonsClicked;
 }

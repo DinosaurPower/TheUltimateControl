@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class LocationSelectorDropdown : MonoBehaviour
 {
-    public  Dropdown m_Dropdown;
+    public  TMP_Dropdown m_Dropdown;
 
 public void ChangeLocationDropDown() {
         Debug.Log("DROP DOWN CHANGED");

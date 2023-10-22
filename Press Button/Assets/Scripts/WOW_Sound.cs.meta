@@ -3,7 +3,9 @@ guid: 2975a89449daa4335ab5b98c4592af94
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Squeak: {fileID: 8300000, guid: dc6493ff2f420fa478cbdc0503c3f91a, type: 3}
+  - audiosource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

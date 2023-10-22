@@ -4494,6 +4494,7 @@ GameObject:
   - component: {fileID: 949240343}
   - component: {fileID: 949240344}
   - component: {fileID: 949240345}
+  - component: {fileID: 949240346}
   m_Layer: 0
   m_Name: GAME_MANAGER
   m_TagString: Untagged
@@ -4642,6 +4643,19 @@ MonoBehaviour:
   slider: {fileID: 1287226872}
   panelTransform: {fileID: 1714254830}
   moveSpeed: -5
+--- !u!114 &949240346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949240339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c8701f6e6024d089b9c34938851621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Dropdown: {fileID: 0}
 --- !u!1 &992707515
 GameObject:
   m_ObjectHideFlags: 0
@@ -7450,7 +7464,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 949240346}
+        m_TargetAssemblyTypeName: LocationSelectorDropdown, Assembly-CSharp
+        m_MethodName: ChangeLocationDropDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1604478753
 MonoBehaviour:
@@ -7754,7 +7780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1714254830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8215,18 +8241,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 949240342}
-        m_TargetAssemblyTypeName: WOW_Sound, Assembly-CSharp
-        m_MethodName: PlayRandom
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 949240343}
         m_TargetAssemblyTypeName: Transparency_Toggle, Assembly-CSharp
         m_MethodName: Refresh

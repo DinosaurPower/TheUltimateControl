@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class WOW_Sound : MonoBehaviour
 {
+
+    public AudioClip squeak;
+
       public AudioClip[] Effects;
       public AudioSource audiosource;
     public void PlayRandom(){
         int r = Random.Range(0, Effects.Length);
          audiosource.clip = Effects[r];
-          audiosource.Play(0);
-        
+          audiosource.Play(0);      
     }
+
 }

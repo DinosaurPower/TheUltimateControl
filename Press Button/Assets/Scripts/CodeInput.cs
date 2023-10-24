@@ -16,6 +16,7 @@ public GameObject[] FauxBG;
         Debug.Log("Access granted");
         for (int i =0; i < FauxBG.Length; i++){
         FauxBG[i].SetActive(false);
+        
         }
         
     }

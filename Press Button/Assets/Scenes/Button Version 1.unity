@@ -5176,7 +5176,7 @@ MonoBehaviour:
   - Button3
   - Button4
   OldText: {fileID: 2022744413}
-  NewText: 
+  NewText: open
   tracker: {fileID: 949240347}
 --- !u!1 &992707515
 GameObject:

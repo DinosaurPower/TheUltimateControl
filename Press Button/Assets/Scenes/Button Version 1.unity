@@ -1359,8 +1359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.476}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: 62.855}
-  m_SizeDelta: {x: 0, y: 669.96}
+  m_AnchoredPosition: {x: -0.000030517578, y: 2.98}
+  m_SizeDelta: {x: 0, y: 789.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &294162087
 Animator:
@@ -3966,10 +3966,10 @@ RectTransform:
   m_Father: {fileID: 1507186778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -70, y: 0}
+  m_SizeDelta: {x: -140, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783292731
 MonoBehaviour:
@@ -5175,9 +5175,9 @@ MonoBehaviour:
   - Button2
   - Button3
   - Button4
-  OldText: {fileID: 0}
+  OldText: {fileID: 2022744413}
   NewText: 
-  tracker: {fileID: 0}
+  tracker: {fileID: 949240347}
 --- !u!1 &992707515
 GameObject:
   m_ObjectHideFlags: 0
@@ -11209,7 +11209,7 @@ GameObject:
   - component: {fileID: 2022744414}
   - component: {fileID: 2022744413}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Guide_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -9673,7 +9673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67be265ef795a464789d3e1a69867747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 1281734818}
+  image: {fileID: 294162088}
   red: {fileID: 309852055}
   green: {fileID: 1544585069}
   blue: {fileID: 1837777038}

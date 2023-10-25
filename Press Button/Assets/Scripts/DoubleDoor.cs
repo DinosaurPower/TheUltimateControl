@@ -13,6 +13,8 @@ public class DoubleDoor : MonoBehaviour
     private Vector3 initialPositionL;
     public float moveSpeed = 5f;
     public bool Escaping;
+    public Animator anim;
+    public Counter counter;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +46,7 @@ public class DoubleDoor : MonoBehaviour
            
                 if (sliderValueR >=1 && sliderValueL >=1){
                 Escaping = true;
+                anim.SetBool("CanEscape", true);
         
                 }
            

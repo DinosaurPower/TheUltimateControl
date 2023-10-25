@@ -6720,6 +6720,7 @@ MonoBehaviour:
   GateL: {fileID: 1558280469}
   moveSpeed: 5
   Escaping: 0
+  anim: {fileID: 294162087}
 --- !u!114 &949240352
 MonoBehaviour:
   m_ObjectHideFlags: 0

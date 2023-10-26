@@ -20,12 +20,13 @@ public class PanelSlider : MonoBehaviour
     private void Update()
     {
         float sliderValue = slider.value;
-
+        if (sliderValue >= 1){
         // Adjust the movement direction and distance as needed
         Vector3 moveDirection = Vector3.left;
         Vector3 targetPosition = initialPosition + moveDirection * sliderValue * moveSpeed * Time.deltaTime;
 
         // Move the panel
         panelTransform.position = Vector3.MoveTowards(panelTransform.position, targetPosition, moveSpeed * Time.deltaTime);
+        }
     }
 }

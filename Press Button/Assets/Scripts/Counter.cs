@@ -5,7 +5,7 @@ using TMPro;
 
 public class Counter : MonoBehaviour
 {
-   public TextMeshPro mText;
+   public TMP_Text mText;
    public GameObject TextFinale;
    public int counter;
     

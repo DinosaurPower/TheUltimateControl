@@ -46,12 +46,18 @@ public class DoubleDoor : MonoBehaviour
            
                 if (sliderValueR >=1 && sliderValueL >=1){
                 Escaping = true;
-                anim.SetBool("CanEscape", true);
+                anim.SetTrigger("CanEscape 0");
+                AnimatorStateInfo currentAnimationState = anim.GetCurrentAnimatorStateInfo(0);
         
-                }
+                if (currentAnimationState.IsName("IsFree"))
+        {
+                        counter.TextUpdate();
+                  
            
         
         }
              
     }
+}
+}
 }
